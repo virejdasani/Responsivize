@@ -4,6 +4,4 @@
     display: inline-flex;
     width: 375px;
     height: 812px;
-    overflow: auto;
-    overflow-y: hidden;
 }
