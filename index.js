@@ -1,15 +1,17 @@
-const webview = document.querySelector('webview')
+const iPhoneX = document.getElementById('iPhoneX')
 
 // When webview is loaded
-webview.addEventListener('dom-ready', () => {
+iPhoneX.addEventListener('dom-ready', () => {
     // https://www.electronjs.org/docs/api/webview-tag
 
     // This is to hide scrollbars in the devices
-    webview.insertCSS(`
-    ::-webkit-scrollbar {
-        display: none;
-    }
-`)
+    iPhoneX.insertCSS(`
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    `)
+
+    iPhoneX.setZoomFactor(0.6)
 
     // if (webview.isLoading) {
     // alert('LOADING')
@@ -26,8 +28,18 @@ webview.addEventListener('dom-ready', () => {
     // if (webview.canGoForward) {
     //     webview.goForward()
     // }
+})
 
-    webview.setZoomFactor(0.6)
+const S21Ultra = document.getElementById('S21Ultra')
 
 
+S21Ultra.addEventListener('dom-ready', () => {
+    // This is to hide scrollbars in the devices
+    S21Ultra.insertCSS(`
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    `)
+
+    S21Ultra.setZoomFactor(0.6)
 })

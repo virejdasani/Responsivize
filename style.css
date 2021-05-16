@@ -12,6 +12,12 @@ body {
     height: 812px;
 }
 
+#S21Ultra {
+    display: inline-flex;
+    width: 375px;
+    height: 812px;
+}
+
 #deviceContainer {
     text-align: center;
     display: inline-flex;
