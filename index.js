@@ -27,7 +27,7 @@ webview.addEventListener('dom-ready', () => {
     //     webview.goForward()
     // }
 
-    // webview.setZoomFactor(0.5)
+    webview.setZoomFactor(0.6)
 
 
 })

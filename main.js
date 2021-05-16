@@ -10,7 +10,8 @@ function createWindow() {
         width: 800,
         height: 600,
         webPreferences: {
-            webviewTag: true
+            webviewTag: true,
+            zoomFactor: 0.60
         }
     })
 
