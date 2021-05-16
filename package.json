@@ -1,0 +1,29 @@
+{
+    "name": "superdynamic",
+    "version": "1.0.0",
+    "description": "A must have web development tool to develop responsive websites!",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/virejdasani/SuperDynamic.git"
+    },
+    "keywords": [
+        "SuperDynamic",
+        "Responsive",
+        "Dynamic",
+        "Electron",
+        "App"
+    ],
+    "author": "Virej Dasani",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/virejdasani/SuperDynamic/issues"
+    },
+    "homepage": "https://github.com/virejdasani/SuperDynamic#readme",
+    "dependencies": {
+        "electron": "^12.0.7"
+    }
+}

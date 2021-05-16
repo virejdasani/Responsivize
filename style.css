@@ -1,0 +1,9 @@
+/* Increase width by 15px because macos scroll bars are 15px wide */
+#iPhoneX {
+    overflow: hidden;
+    display: inline-flex;
+    width: 375px;
+    height: 812px;
+    overflow: auto;
+    overflow-y: hidden;
+}
