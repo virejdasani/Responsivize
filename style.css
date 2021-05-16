@@ -1,7 +1,24 @@
-/* Increase width by 15px because macos scroll bars are 15px wide */
+html,
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+
 #iPhoneX {
-    overflow: hidden;
     display: inline-flex;
     width: 375px;
     height: 812px;
+}
+
+#deviceContainer {
+    text-align: center;
+    display: inline-flex;
+    margin: 6px;
+    font-size: 22px;
+}
+
+#device {
+    margin-left: 30px;
 }
