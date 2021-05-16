@@ -14,10 +14,11 @@ function calibrateDevice(deviceName) {
 }
 
 // Add all devices here
-calibrateDevice("iPhoneX")
-calibrateDevice("S21Ultra")
+calibrateDevice("iPhoneXS")
+calibrateDevice("iPhoneXSMax")
 
 // Methods from https://www.electronjs.org/docs/api/webview-tag
+
 // if (webview.isLoading) {
 // alert('LOADING')
 // }

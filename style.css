@@ -6,16 +6,16 @@ body {
     background-color: rgb(47, 47, 47);
 }
 
-#iPhoneX {
+#iPhoneXS {
     display: inline-flex;
     width: 375px;
     height: 812px;
 }
 
-#S21Ultra {
+#iPhoneXSMax {
     display: inline-flex;
-    width: 375px;
-    height: 812px;
+    width: 414px;
+    height: 896px;
 }
 
 #deviceContainer {
