@@ -1,28 +1,4 @@
-// const iPhoneX = document.getElementById('iPhoneX')
-
-// // When webview is loaded
-// iPhoneX.addEventListener('dom-ready', () => {
-//     // This is to hide scrollbars in the devices
-//     iPhoneX.insertCSS(`
-//         ::-webkit-scrollbar {
-//             display: none;
-//         }
-//     `)
-//     iPhoneX.setZoomFactor(0.6)
-// })
-
-// const S21Ultra = document.getElementById('S21Ultra')
-
-// S21Ultra.addEventListener('dom-ready', () => {
-//     // This is to hide scrollbars in the devices
-//     S21Ultra.insertCSS(`
-//         ::-webkit-scrollbar {
-//             display: none;
-//         }
-//     `)
-//     S21Ultra.setZoomFactor(0.6)
-// })
-
+// This function applies settings to all devices
 function calibrateDevice(deviceName) {
     var deviceName = document.getElementById(deviceName)
 
@@ -37,6 +13,7 @@ function calibrateDevice(deviceName) {
     })
 }
 
+// Add all devices here
 calibrateDevice("iPhoneX")
 calibrateDevice("S21Ultra")
 
