@@ -7,6 +7,8 @@ body {
     background-color: blue;
 }
 
+/* ------------------------------iPhone 11 Pro---------------------------------- */
+/* This is the webview */
 #iPhone11Pro {
     display: inline-flex;
     width: 375px;
@@ -15,21 +17,39 @@ body {
     pointer-events:auto;
 }
 
+/* This is the iPhone image */
 #iPhone11ProImg {
     position: absolute;
     top: 42px;
-    left: 28px;
+    left: 58px;
     width: 432px;
     height: 890px;
     /* This makes the website accessible through the device image */
     pointer-events:none;
 }
+/* ------------------------------iPhone 11 Pro---------------------------------- */
 
+/* ------------------------------iPhone 11 Pro Max---------------------------------- */
+/* This is the webview */
 #iPhone11ProMax {
     display: inline-flex;
     width: 414px;
     height: 896px;
+    /* This makes the website accessible through the device image */
+    pointer-events:auto;
 }
+
+/* This is the iPhone image */
+#iPhone11ProMaxImg {
+    position: absolute;
+    top: 42px;
+    left: 515px;
+    width: 470px;
+    height: 990px;
+    /* This makes the website accessible through the device image */
+    pointer-events:none;
+}
+/* ------------------------------iPhone 11 Pro Max---------------------------------- */
 
 #deviceContainer {
     text-align: center;
@@ -39,6 +59,6 @@ body {
 }
 
 #device {
-    margin-left: 50px;
+    margin-left: 80px;
     margin-top: 96px;
 }
