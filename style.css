@@ -3,8 +3,9 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    /* background-color: rgb(47, 47, 47); */
-    background-color: blue;
+    background-color: rgb(67, 67, 67);
+    /* Change to blue for debugging to see if the bg is visible between the webview and the deviceImg */
+    /* background-color: blue; */
 }
 
 /* ------------------------------iPhone 11 Pro---------------------------------- */
