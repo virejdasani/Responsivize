@@ -17,11 +17,11 @@ body {
     pointer-events:auto;
 }
 
-/* This is the iPhone image */
+/* This is the device image */
 #iPhone11ProImg {
     position: absolute;
     top: 136px;
-    left: 88px;
+    left: 33px;
     width: 432px;
     height: 890px;
     /* This makes the website accessible through the device image */
@@ -30,7 +30,8 @@ body {
 
 /* This is the x y position of the webview */
 #device11Pro {
-    margin-left: 110px;
+    margin-left: 55px;
+    margin-right: 55px;
     margin-top: 190px;
 }
 /* ------------------------------iPhone 11 Pro---------------------------------- */
@@ -45,11 +46,11 @@ body {
     pointer-events:auto;
 }
 
-/* This is the iPhone image */
+/* This is the device image */
 #iPhone11ProMaxImg {
     position: absolute;
     top: 130px;
-    left: 570px;
+    left: 515px;
     width: 475px;
     height: 996px;
     /* This makes the website accessible through the device image */
@@ -58,7 +59,8 @@ body {
 
 /* This is the x y position of the webview */
 #device11ProMax {
-    margin-left: 110px;
+    margin-left: 55px;
+    margin-right: 55px;
     margin-top: 190px;
 }
 /* ------------------------------iPhone 11 Pro Max---------------------------------- */
@@ -73,11 +75,11 @@ body {
     pointer-events:auto;
 }
 
-/* This is the iPhone image */
+/* This is the device image */
 #samsungGalaxyA51Img {
     position: absolute;
     top: 130px;
-    left: 1100px;
+    left: 1045px;
     width: 464px;
     height: 1064px;
     /* This makes the website accessible through the device image */
@@ -86,10 +88,40 @@ body {
 
 /* This is the x y position of the webview */
 #deviceA51 {
-    margin-left: 110px;
+    margin-left: 55px;
+    margin-right: 55px;
     margin-top: 242px;
 }
 /* ------------------------------Samsung Galaxy A51---------------------------------- */
+
+/* ------------------------------Google Pixel 5---------------------------------- */
+/* This is the webview size */
+#pixel5 {
+    display: inline-flex;
+    width: 393px;
+    height: 851px;
+    /* This makes the website accessible through the device image */
+    pointer-events:auto;
+}
+
+/* This is the device image */
+#pixel5Img {
+    position: absolute;
+    top: 130px;
+    left: 1568px;
+    width: 442px;
+    height: 976px;
+    /* This makes the website accessible through the device image */
+    pointer-events:none;
+}
+
+/* This is the x y position of the webview */
+#devicePixel5 {
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 232px;
+}
+/* ------------------------------Google Pixel 5---------------------------------- */
 
 #deviceContainer {
     text-align: center;
