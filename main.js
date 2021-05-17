@@ -7,7 +7,7 @@ const {
 
 function createWindow() {
     const win = new BrowserWindow({
-        width: 1200,
+        width: 1228,
         height: 800,
         webPreferences: {
             webviewTag: true,
