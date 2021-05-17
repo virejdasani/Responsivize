@@ -3,7 +3,8 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background-color: rgb(47, 47, 47);
+    /* background-color: rgb(47, 47, 47); */
+    background-color: blue;
 }
 
 #iPhone11Pro {
@@ -16,10 +17,10 @@ body {
 
 #iPhone11ProImg {
     position: absolute;
-    top: 56px;
-    left: 15px;
-    width: 420px;
-    height: 857px;
+    top: 42px;
+    left: 28px;
+    width: 432px;
+    height: 890px;
     /* This makes the website accessible through the device image */
     pointer-events:none;
 }
@@ -38,5 +39,6 @@ body {
 }
 
 #device {
-    margin-left: 30px;
+    margin-left: 50px;
+    margin-top: 96px;
 }
