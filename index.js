@@ -1,7 +1,7 @@
 // All devices go in the devices array
 var devices = ["#iPhone11Pro", "#iPhone11ProMax", "#samsungGalaxyA51", "#pixel5"]
 
-let website = "https://test.com"
+let website = "http://virej.ml"
 
 // For each device, firstly it is calibrated by passing it in the calibrateDevice(deviceName) function
 // Then, it's webview src website is applied so all devices run the same website

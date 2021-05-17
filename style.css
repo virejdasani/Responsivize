@@ -35,6 +35,14 @@ body {
     margin-right: 55px;
     margin-top: 190px;
 }
+
+/* This is the device name and dimensions text */
+#iPhone11ProText {
+    margin: 0;
+    position: absolute;
+    top: 85px;
+    left: 126px;
+}
 /* ------------------------------iPhone 11 Pro---------------------------------- */
 
 /* ------------------------------iPhone 11 Pro Max---------------------------------- */
@@ -63,6 +71,14 @@ body {
     margin-left: 55px;
     margin-right: 55px;
     margin-top: 190px;
+}
+
+/* This is the device name and dimensions text */
+#iPhone11ProMaxText {
+    margin: 0;
+    position: absolute;
+    top: 85px;
+    left: 604px;
 }
 /* ------------------------------iPhone 11 Pro Max---------------------------------- */
 
@@ -93,6 +109,15 @@ body {
     margin-right: 55px;
     margin-top: 242px;
 }
+
+/* This is the device name and dimensions text */
+#A51Text {
+    margin: 0;
+    position: absolute;
+    width: 350px;
+    top: 85px;
+    left: 1090px;
+}
 /* ------------------------------Samsung Galaxy A51---------------------------------- */
 
 /* ------------------------------Google Pixel 5---------------------------------- */
@@ -121,6 +146,15 @@ body {
     margin-left: 55px;
     margin-right: 55px;
     margin-top: 232px;
+}
+
+/* This is the device name and dimensions text */
+#pixel5Text {
+    margin: 0;
+    position: absolute;
+    width: 300px;
+    top: 85px;
+    left: 1630px;
 }
 /* ------------------------------Google Pixel 5---------------------------------- */
 
