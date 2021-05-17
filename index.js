@@ -1,5 +1,5 @@
 // All devices go in the devices array
-var devices = ["#iPhoneXS", "#iPhoneXSMax"]
+var devices = ["#iPhone11Pro", "#iPhone11ProMax"]
 
 let website = "https://test.com"
 
