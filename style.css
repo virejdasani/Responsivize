@@ -8,7 +8,7 @@ body {
 }
 
 /* ------------------------------iPhone 11 Pro---------------------------------- */
-/* This is the webview */
+/* This is the webview size */
 #iPhone11Pro {
     display: inline-flex;
     width: 375px;
@@ -27,10 +27,16 @@ body {
     /* This makes the website accessible through the device image */
     pointer-events:none;
 }
+
+/* This is the x y position of the webview */
+#device11Pro {
+    margin-left: 110px;
+    margin-top: 190px;
+}
 /* ------------------------------iPhone 11 Pro---------------------------------- */
 
 /* ------------------------------iPhone 11 Pro Max---------------------------------- */
-/* This is the webview */
+/* This is the webview size */
 #iPhone11ProMax {
     display: inline-flex;
     width: 414px;
@@ -45,20 +51,49 @@ body {
     top: 130px;
     left: 570px;
     width: 475px;
-    height: 998px;
+    height: 996px;
     /* This makes the website accessible through the device image */
     pointer-events:none;
 }
+
+/* This is the x y position of the webview */
+#device11ProMax {
+    margin-left: 110px;
+    margin-top: 190px;
+}
 /* ------------------------------iPhone 11 Pro Max---------------------------------- */
+
+/* ------------------------------Samsung Galaxy A51---------------------------------- */
+/* This is the webview size */
+#samsungGalaxyA51 {
+    display: inline-flex;
+    width: 412px;
+    height: 914px;
+    /* This makes the website accessible through the device image */
+    pointer-events:auto;
+}
+
+/* This is the iPhone image */
+#samsungGalaxyA51Img {
+    position: absolute;
+    top: 130px;
+    left: 1100px;
+    width: 464px;
+    height: 1064px;
+    /* This makes the website accessible through the device image */
+    pointer-events:none;
+}
+
+/* This is the x y position of the webview */
+#deviceA51 {
+    margin-left: 110px;
+    margin-top: 242px;
+}
+/* ------------------------------Samsung Galaxy A51---------------------------------- */
 
 #deviceContainer {
     text-align: center;
     display: inline-flex;
     margin: 6px;
     font-size: 22px;
-}
-
-#device {
-    margin-left: 110px;
-    margin-top: 190px;
 }
