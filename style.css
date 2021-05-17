@@ -42,10 +42,10 @@ body {
 /* This is the iPhone image */
 #iPhone11ProMaxImg {
     position: absolute;
-    top: 42px;
+    top: 34px;
     left: 530px;
-    width: 476px;
-    height: 990px;
+    width: 475px;
+    height: 998px;
     /* This makes the website accessible through the device image */
     pointer-events:none;
 }
