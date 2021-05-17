@@ -7,10 +7,11 @@ const {
 
 function createWindow() {
     const win = new BrowserWindow({
-        width: 900,
-        height: 700,
+        width: 1200,
+        height: 800,
         webPreferences: {
             webviewTag: true,
+            // This is to zoom out in the app window
             zoomFactor: 0.60
         }
     })
