@@ -20,8 +20,8 @@ body {
 /* This is the iPhone image */
 #iPhone11ProImg {
     position: absolute;
-    top: 42px;
-    left: 68px;
+    top: 136px;
+    left: 88px;
     width: 432px;
     height: 890px;
     /* This makes the website accessible through the device image */
@@ -42,8 +42,8 @@ body {
 /* This is the iPhone image */
 #iPhone11ProMaxImg {
     position: absolute;
-    top: 34px;
-    left: 530px;
+    top: 130px;
+    left: 570px;
     width: 475px;
     height: 998px;
     /* This makes the website accessible through the device image */
@@ -59,6 +59,6 @@ body {
 }
 
 #device {
-    margin-left: 90px;
-    margin-top: 96px;
+    margin-left: 110px;
+    margin-top: 190px;
 }
