@@ -45,6 +45,26 @@ function calibrateDevice(deviceName) {
         `)
         // Make the devices zoom factor 60% of their original to match the zoom out done in main.js to the app window
         deviceName.setZoomFactor(0.6)
+
+        // For the back button
+        document.getElementById("backButton").addEventListener("click", () => {
+            // If can go back, then go back
+            if (deviceName.canGoBack) {
+                deviceName.goBack()
+            } else {
+                // For some reason, anything put in here has no effect
+            }
+        })
+
+        // For the forward button
+        document.getElementById("forwardButton").addEventListener("click", () => {
+            // If can go forward, then go forward
+            if (deviceName.canGoForward) {
+                deviceName.goForward()
+            } else {
+                // For some reason, anything put in here has no effect
+            }
+        })
     })
 }
 
@@ -66,10 +86,7 @@ function loadSiteToDevices() {
 
 // webview.openDevTools()
 
-// To go back
-// if (webview.canGoBack) {
-//     webview.goBack()
-// }
+
 
 // To go forward
 // if (webview.canGoForward) {
