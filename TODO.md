@@ -3,3 +3,5 @@ Add device image above webview ✅
 Add more devices         
 Add start menu with options like device type, os, landscape/portrait        
 Add option to change browser theme to light mode
+
+Make sure that the url in the input bar matches the sites being rendered
