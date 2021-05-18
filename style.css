@@ -3,9 +3,9 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    /* background-color: rgb(67, 67, 67); */
     /* Change to blue for debugging to see if the bg is visible between the webview and the deviceImg */
-    background-color: blue;
+    background-color: rgb(67, 67, 67);
+    /* background-color: blue; */
 }
 
 /* ------------------------------iPhone 11 Pro---------------------------------- */
@@ -136,7 +136,7 @@ body {
 /* This is the device image */
 #pixel5Img {
     position: absolute;
-    top: 130px;
+    top: 186px;
     left: 1568px;
     width: 442px;
     height: 976px;
@@ -148,7 +148,7 @@ body {
 #devicePixel5 {
     margin-left: 55px;
     margin-right: 55px;
-    margin-top: 232px;
+    margin-top: 214px;
 }
 
 /* This is the device name and dimensions text */
