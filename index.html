@@ -5,16 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+        <!-- Our project just needs Font Awesome solid + brand -->
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+
     <link rel="stylesheet" href="style.css">
+
     <title>Super Dynamic</title>
 </head>
 
 <body>
-    <!-- typeClass="apple/android/windows/generic" -->
-    <!-- deviceClass="phone/tablet/laptop/generic" -->
+    <header>
+        <div id="header">
+            <div id="controls">
+                <i id="backButton" class="fas fa-arrow-circle-left fa-3x"></i>
+                <i id="forwardButton" class="fas fa-arrow-circle-right fa-3x"></i>
+                <i id="reloadButton" class="fas fa-redo-alt fa-3x"></i>
+            </div>
+            <input id="urlInput" type="url" placeholder="https://google.com">
+        </div>
+    </header>
     <div id="deviceContainer">
         <div id="device11Pro">
-
             <p id="iPhone11ProText">iPhone 11 Pro (375x812)</p>
             <img id="iPhone11ProImg" src="assets/apple/NotchiPhoneBrowserDark.png">
             <webview id="iPhone11Pro" src="https://www.google.com" class="device" class="apple" class="phone">
@@ -29,13 +44,13 @@
         <div id="deviceA51">
             <p id="A51Text">Samsung Galaxy A51 (393x851)</p>
             <img id="samsungGalaxyA51Img" src="assets/android/SamsungGalaxyA51Browser.png">
-            <webview id="samsungGalaxyA51" src="https://www.google.com" class="device" class="apple" class="phone">
+            <webview id="samsungGalaxyA51" src="https://www.google.com" class="device" class="android" class="phone">
             </webview>
         </div>
         <div id="devicePixel5">
             <p id="pixel5Text">Google Pixel 5 (375x812)</p>
             <img id="pixel5Img" src="assets/android/Pixel5Browser.png">
-            <webview id="pixel5" src="https://www.google.com" class="device" class="apple" class="phone">
+            <webview id="pixel5" src="https://www.google.com" class="device" class="android" class="phone">
             </webview>
         </div>
     </div>

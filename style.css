@@ -3,9 +3,9 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background-color: rgb(67, 67, 67);
+    /* background-color: rgb(67, 67, 67); */
     /* Change to blue for debugging to see if the bg is visible between the webview and the deviceImg */
-    /* background-color: blue; */
+    background-color: blue;
 }
 
 /* ------------------------------iPhone 11 Pro---------------------------------- */
@@ -15,25 +15,25 @@ body {
     width: 375px;
     height: 812px;
     /* This makes the website accessible through the device image */
-    pointer-events:auto;
+    pointer-events: auto;
 }
 
 /* This is the device image */
 #iPhone11ProImg {
     position: absolute;
-    top: 136px;
+    top: 186px;
     left: 33px;
     width: 432px;
     height: 890px;
     /* This makes the website accessible through the device image */
-    pointer-events:none;
+    pointer-events: none;
 }
 
 /* This is the x y position of the webview */
 #device11Pro {
     margin-left: 55px;
     margin-right: 55px;
-    margin-top: 190px;
+    margin-top: 162px;
 }
 
 /* This is the device name and dimensions text */
@@ -43,6 +43,7 @@ body {
     top: 85px;
     left: 126px;
 }
+
 /* ------------------------------iPhone 11 Pro---------------------------------- */
 
 /* ------------------------------iPhone 11 Pro Max---------------------------------- */
@@ -52,25 +53,25 @@ body {
     width: 414px;
     height: 896px;
     /* This makes the website accessible through the device image */
-    pointer-events:auto;
+    pointer-events: auto;
 }
 
 /* This is the device image */
 #iPhone11ProMaxImg {
     position: absolute;
-    top: 130px;
+    top: 186px;
     left: 515px;
     width: 475px;
     height: 996px;
     /* This makes the website accessible through the device image */
-    pointer-events:none;
+    pointer-events: none;
 }
 
 /* This is the x y position of the webview */
 #device11ProMax {
     margin-left: 55px;
     margin-right: 55px;
-    margin-top: 190px;
+    margin-top: 166px;
 }
 
 /* This is the device name and dimensions text */
@@ -80,6 +81,7 @@ body {
     top: 85px;
     left: 604px;
 }
+
 /* ------------------------------iPhone 11 Pro Max---------------------------------- */
 
 /* ------------------------------Samsung Galaxy A51---------------------------------- */
@@ -89,25 +91,25 @@ body {
     width: 412px;
     height: 914px;
     /* This makes the website accessible through the device image */
-    pointer-events:auto;
+    pointer-events: auto;
 }
 
 /* This is the device image */
 #samsungGalaxyA51Img {
     position: absolute;
-    top: 130px;
+    top: 186px;
     left: 1046px;
     width: 463px;
     height: 1064px;
     /* This makes the website accessible through the device image */
-    pointer-events:none;
+    pointer-events: none;
 }
 
 /* This is the x y position of the webview */
 #deviceA51 {
     margin-left: 55px;
     margin-right: 55px;
-    margin-top: 242px;
+    margin-top: 218px;
 }
 
 /* This is the device name and dimensions text */
@@ -118,6 +120,7 @@ body {
     top: 85px;
     left: 1090px;
 }
+
 /* ------------------------------Samsung Galaxy A51---------------------------------- */
 
 /* ------------------------------Google Pixel 5---------------------------------- */
@@ -127,7 +130,7 @@ body {
     width: 393px;
     height: 851px;
     /* This makes the website accessible through the device image */
-    pointer-events:auto;
+    pointer-events: auto;
 }
 
 /* This is the device image */
@@ -138,7 +141,7 @@ body {
     width: 442px;
     height: 976px;
     /* This makes the website accessible through the device image */
-    pointer-events:none;
+    pointer-events: none;
 }
 
 /* This is the x y position of the webview */
@@ -156,11 +159,53 @@ body {
     top: 85px;
     left: 1630px;
 }
+
 /* ------------------------------Google Pixel 5---------------------------------- */
 
+/* Contains all the devices */
 #deviceContainer {
     text-align: center;
     display: inline-flex;
     margin: 6px;
     font-size: 22px;
+}
+
+/* Contains the input field and controls */
+#header {
+    width: 100%;
+    height: 80px;
+    /* border: solid 5px black; */
+}
+
+/* The url input field */
+#urlInput {
+    width: 40%;
+    height: 50px;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: 15px;
+    border-radius: 5px;
+    display: inline-flex;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+/* Controls */
+#controls {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 320px;
+}
+
+#backButton,
+#forwardButton,
+#reloadButton {
+    margin-left: 30px;
+}
+
+/* For glow instead of outline on focus */
+*:focus {
+    border-color: rgba(23, 198, 229, 0.8);
+    box-shadow: 0 1px 1px rgba(39, 166, 189, 0.075) inset, 0 0 8px rgba(23, 198, 229, 0.823);
+    outline: none;
 }
