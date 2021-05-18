@@ -42,6 +42,7 @@ body {
     position: absolute;
     top: 140px;
     left: 124px;
+    /* width: 200px; */
 }
 
 /* ------------------------------iPhone 11 Pro---------------------------------- */
@@ -79,7 +80,7 @@ body {
     margin: 0;
     position: absolute;
     top: 140px;
-    left: 604px;
+    left: 608px;
 }
 
 /* ------------------------------iPhone 11 Pro Max---------------------------------- */
@@ -179,22 +180,23 @@ body {
 
 /* The url input field */
 #urlInput {
-    width: 40%;
+    position: absolute;
     height: 50px;
     font-size: 30px;
-    margin-left: 30%;
-    margin-top: 15px;
+    margin-left: 30px;
     border-radius: 5px;
     display: inline-flex;
     background-color: rgb(255, 255, 255);
     border: none;
+    width: 600px;
 }
 
 /* Controls */
 #controls {
-    position: absolute;
     margin-top: 20px;
-    margin-left: 320px;
+    margin-left: 25%;
+    display: inline-flex;
+    width: 100%;
 }
 
 #backButton,
@@ -208,4 +210,9 @@ body {
     border-color: rgba(23, 198, 229, 0.8);
     box-shadow: 0 1px 1px rgba(39, 166, 189, 0.075) inset, 0 0 8px rgba(23, 198, 229, 0.823);
     outline: none;
+}
+
+/* Hide scrollbars */
+::-webkit-scrollbar {
+    display: none;
 }

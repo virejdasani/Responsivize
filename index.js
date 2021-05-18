@@ -13,8 +13,6 @@ loadSiteToDevices()
 // Set the value in the urlInput field to the website that is being rendered on the devices
 document.querySelector("#urlInput").setAttribute("value", website)
 
-
-
 // When enter is pressed from the urlInput field
 goButton.addEventListener("click", (event) => {
     // Don't reload the app window

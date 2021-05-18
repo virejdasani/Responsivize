@@ -23,11 +23,12 @@
                 <i id="backButton" class="fas fa-arrow-circle-left fa-3x"></i>
                 <i id="forwardButton" class="fas fa-arrow-circle-right fa-3x"></i>
                 <i id="reloadButton" class="fas fa-redo-alt fa-3x"></i>
+                <!-- This form is under the controls div on purpose. It is so that they can naturally scale down -->
+                <form >
+                    <input id="urlInput" type="url" placeholder="https://google.com" value="https://www.google.com">
+                    <button type="submit" id="goButton" hidden></button>
+                </form>
             </div>
-            <form >
-                <input id="urlInput" type="url" placeholder="https://google.com" value="https://www.google.com">
-                <button type="submit" id="goButton" hidden></button>
-            </form>
         </div>
     </header>
     <div id="deviceContainer">
