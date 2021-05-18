@@ -65,6 +65,12 @@ function calibrateDevice(deviceName) {
                 // For some reason, anything put in here has no effect
             }
         })
+
+        // To reload the webviews
+        document.getElementById("reloadButton").addEventListener("click", () => {
+            // Reload
+            deviceName.reload()
+        })
     })
 }
 
@@ -85,10 +91,3 @@ function loadSiteToDevices() {
 // }
 
 // webview.openDevTools()
-
-
-
-// To go forward
-// if (webview.canGoForward) {
-//     webview.goForward()
-// }
