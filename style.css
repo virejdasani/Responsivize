@@ -40,8 +40,8 @@ body {
 #iPhone11ProText {
     margin: 0;
     position: absolute;
-    top: 85px;
-    left: 126px;
+    top: 140px;
+    left: 124px;
 }
 
 /* ------------------------------iPhone 11 Pro---------------------------------- */
@@ -78,7 +78,7 @@ body {
 #iPhone11ProMaxText {
     margin: 0;
     position: absolute;
-    top: 85px;
+    top: 140px;
     left: 604px;
 }
 
@@ -117,7 +117,7 @@ body {
     margin: 0;
     position: absolute;
     width: 350px;
-    top: 85px;
+    top: 140px;
     left: 1090px;
 }
 
@@ -156,7 +156,7 @@ body {
     margin: 0;
     position: absolute;
     width: 300px;
-    top: 85px;
+    top: 140px;
     left: 1630px;
 }
 
