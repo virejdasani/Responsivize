@@ -5,7 +5,7 @@ body {
     color: white;
     /* Change to blue for debugging to see if the bg is visible between the webview and the deviceImg */
     background-color: rgb(67, 67, 67);
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 /* ------------------------------ iPad Pro ---------------------------------- */
@@ -97,6 +97,7 @@ body {
     margin: 6px;
     font-size: 22px;
     margin-bottom: 150px;
+    margin-right: 50px;
 }
 
 /* Contains the input field and controls */
