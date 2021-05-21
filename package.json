@@ -1,5 +1,5 @@
 {
-    "name": "superdynamic",
+    "name": "responsivize",
     "version": "1.0.0",
     "description": "A must have web development tool to develop responsive websites!",
     "main": "main.js",
@@ -8,11 +8,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/virejdasani/SuperDynamic.git"
+        "url": "git+https://github.com/virejdasani/Responsivize.git"
     },
     "keywords": [
-        "SuperDynamic",
+        "Responsivize",
         "Responsive",
+        "web-tool",
+        "web-dev",
         "Dynamic",
         "Electron",
         "App"
@@ -20,9 +22,9 @@
     "author": "Virej Dasani",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/virejdasani/SuperDynamic/issues"
+        "url": "https://github.com/virejdasani/Responsivize/issues"
     },
-    "homepage": "https://github.com/virejdasani/SuperDynamic#readme",
+    "homepage": "https://github.com/virejdasani/Responsivize#readme",
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.15.3",
         "electron": "^12.0.7",
