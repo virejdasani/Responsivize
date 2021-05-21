@@ -3,7 +3,7 @@ var website = document.getElementById("urlInput").value
 let goButton = document.getElementById("goButton")
 
 // All devices go in the devices array
-let devices = ["#iPadPro", "#iPadMini"]
+let devices = ["#iPadPro", "#iPadMini", "#iPadMiniLandscape"]
 
 website = `https://virejdasani.github.io/Geniemoji/`
 

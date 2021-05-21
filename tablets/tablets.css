@@ -90,6 +90,46 @@ body {
 /* ------------------------------ iPad Mini ---------------------------------- */
 
 
+/* ------------------------------ iPad Mini Landscape ---------------------------------- */
+/* This is the webview size */
+#iPadMiniLandscape {
+    display: inline-flex;
+    width: 1024px;
+    height: 768px;
+    /* This makes the website accessible through the device image */
+    pointer-events: auto;
+}
+
+/* This is the device image */
+#iPadMiniLandscapeImg {
+    position: absolute;
+    top: 186px;
+    left: 2078px;
+    width: 1246px;
+    height: 892px;
+    /* This makes the website accessible through the device image */
+    pointer-events: none;
+}
+
+/* This is the x y position of the webview */
+#deviceIPadMiniLandscape {
+    margin-left: 130px;
+    margin-right: 55px;
+    margin-top: 256px;
+    background-color: white;
+    height: 1066px;
+}
+
+/* This is the device name and dimensions text */
+#iPadMiniLandscapeText {
+    margin: 0;
+    position: absolute;
+    top: 140px;
+    left: 1462px;
+    /* width: 200px; */
+}
+/* ------------------------------ iPad Mini Landscape ---------------------------------- */
+
 /* Contains all the devices */
 #deviceContainer {
     text-align: center;
