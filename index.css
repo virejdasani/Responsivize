@@ -25,6 +25,12 @@ body {
     font-size: 28px;
 }
 
+#openPhonesButton:hover,
+#openTabletsButton:hover,
+#openLaptopsButton:hover {
+    background-color: rgb(95, 95, 95);
+}
+
 h1 {
     font-size: 70px;
 }
