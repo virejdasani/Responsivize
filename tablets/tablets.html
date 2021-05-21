@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome for icons -->
+    <script defer src="../node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+    <script defer src="../node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+    <script defer src="../node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+
+    <link rel="stylesheet" href="tablets.css">
+
+    <title>Super Dynamic</title>
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <i id="homeButton" class="fas fa-home fa-3x"></i>
+            <div id="controls">
+                <i id="backButton" class="fas fa-arrow-circle-left fa-3x"></i>
+                <i id="forwardButton" class="fas fa-arrow-circle-right fa-3x"></i>
+                <i id="reloadButton" class="fas fa-redo-alt fa-3x"></i>
+                <!-- This form is under the controls div on purpose. It is so that they can naturally scale down -->
+                <form>
+                    <input id="urlInput" type="url" placeholder="https://google.com" value="https://www.google.com">
+                    <button type="submit" id="goButton" hidden></button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <div id="deviceContainer">
+        <div id="deviceIPadPro">
+            <p id="iPadProText">iPad Pro 12.9 - 2021 (1024x1366)</p>
+            <img id="iPadProImg" src="../assets/apple/NotchiPhoneBrowserDark.png">
+            <webview id="iPadPro" src="" class="device" class="apple" class="tablet">
+            </webview>
+        </div>
+    </div>
+
+    <script src="tablets.js"></script>
+</body>
+
+</html>

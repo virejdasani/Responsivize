@@ -1,0 +1,108 @@
+html,
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /* Change to blue for debugging to see if the bg is visible between the webview and the deviceImg */
+    background-color: rgb(67, 67, 67);
+    /* background-color: blue; */
+}
+
+/* ------------------------------iPhone 11 Pro---------------------------------- */
+/* This is the webview size */
+#iPadPro {
+    display: inline-flex;
+    width: 375px;
+    height: 812px;
+    /* This makes the website accessible through the device image */
+    pointer-events: auto;
+}
+
+/* This is the device image */
+#iPadProImg {
+    position: absolute;
+    top: 186px;
+    left: 33px;
+    width: 432px;
+    height: 890px;
+    /* This makes the website accessible through the device image */
+    pointer-events: none;
+}
+
+/* This is the x y position of the webview */
+#deviceIPadPro {
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 162px;
+}
+
+/* This is the device name and dimensions text */
+#iPadProText {
+    margin: 0;
+    position: absolute;
+    top: 140px;
+    left: 124px;
+    /* width: 200px; */
+}
+
+/* ------------------------------iPhone 11 Pro---------------------------------- */
+
+/* Contains all the devices */
+#deviceContainer {
+    text-align: center;
+    display: inline-flex;
+    margin: 6px;
+    font-size: 22px;
+}
+
+/* Contains the input field and controls */
+#header {
+    width: 100%;
+    height: 80px;
+    /* border: solid 5px black; */
+}
+
+/* The url input field */
+#urlInput {
+    position: absolute;
+    height: 50px;
+    font-size: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+    display: inline-flex;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 600px;
+}
+
+/* Controls */
+#controls {
+    margin-top: 20px;
+    margin-left: 25%;
+    display: inline-flex;
+}
+
+#backButton,
+#forwardButton,
+#reloadButton {
+    margin-left: 30px;
+}
+
+#homeButton {
+    margin-top: 20px;
+    margin-left: 40px;
+    display: inline-flex;
+    position: absolute;
+}
+
+/* For glow instead of outline on focus */
+*:focus {
+    border-color: rgba(23, 198, 229, 0.8);
+    box-shadow: 0 1px 1px rgba(39, 166, 189, 0.075) inset, 0 0 8px rgba(23, 198, 229, 0.823);
+    outline: none;
+}
+
+/* Hide scrollbars */
+::-webkit-scrollbar {
+    display: none;
+}
