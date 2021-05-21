@@ -106,7 +106,7 @@ body {
     top: 186px;
     left: 2078px;
     width: 1246px;
-    height: 892px;
+    height: 926px;
     /* This makes the website accessible through the device image */
     pointer-events: none;
 }
@@ -115,9 +115,9 @@ body {
 #deviceIPadMiniLandscape {
     margin-left: 130px;
     margin-right: 55px;
-    margin-top: 256px;
+    margin-top: 224px;
     background-color: white;
-    height: 1066px;
+    height: 750px;
 }
 
 /* This is the device name and dimensions text */
@@ -125,8 +125,8 @@ body {
     margin: 0;
     position: absolute;
     top: 140px;
-    left: 1462px;
-    /* width: 200px; */
+    left: 2462px;
+    width: 500px;
 }
 /* ------------------------------ iPad Mini Landscape ---------------------------------- */
 
