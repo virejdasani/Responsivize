@@ -5,7 +5,7 @@ body {
     color: white;
     /* Change to blue for debugging to see if the bg is visible between the webview and the deviceImg */
     background-color: rgb(67, 67, 67);
-    /* background-color: blue; */
+    background-color: blue;
 }
 
 /* ------------------------------iPhone 11 Pro---------------------------------- */
@@ -23,17 +23,18 @@ body {
     position: absolute;
     top: 186px;
     left: 33px;
-    width: 432px;
-    height: 890px;
+    width: 1124px;
+    height: 1536px;
     /* This makes the website accessible through the device image */
     pointer-events: none;
 }
 
 /* This is the x y position of the webview */
 #deviceIPadPro {
-    margin-left: 55px;
+    margin-left: 76px;
     margin-right: 55px;
-    margin-top: 162px;
+    margin-top: 230px;
+    background-color: white;
 }
 
 /* This is the device name and dimensions text */
@@ -41,7 +42,7 @@ body {
     margin: 0;
     position: absolute;
     top: 140px;
-    left: 124px;
+    left: 432px;
     /* width: 200px; */
 }
 
@@ -53,6 +54,7 @@ body {
     display: inline-flex;
     margin: 6px;
     font-size: 22px;
+    margin-bottom: 150px;
 }
 
 /* Contains the input field and controls */
@@ -103,6 +105,6 @@ body {
 }
 
 /* Hide scrollbars */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
