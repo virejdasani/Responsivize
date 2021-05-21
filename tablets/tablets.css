@@ -12,8 +12,8 @@ body {
 /* This is the webview size */
 #iPadPro {
     display: inline-flex;
-    width: 375px;
-    height: 812px;
+    width: 1024px;
+    height: 1366px;
     /* This makes the website accessible through the device image */
     pointer-events: auto;
 }
