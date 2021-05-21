@@ -5,7 +5,7 @@ body {
     color: white;
     /* Change to blue for debugging to see if the bg is visible between the webview and the deviceImg */
     background-color: rgb(67, 67, 67);
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 /* ------------------------------iPhone 11 Pro---------------------------------- */
@@ -23,7 +23,7 @@ body {
     position: absolute;
     top: 186px;
     left: 33px;
-    width: 1124px;
+    width: 1120px;
     height: 1536px;
     /* This makes the website accessible through the device image */
     pointer-events: none;
@@ -35,6 +35,7 @@ body {
     margin-right: 55px;
     margin-top: 230px;
     background-color: white;
+    height: 1366px;
 }
 
 /* This is the device name and dimensions text */
