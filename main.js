@@ -4,6 +4,7 @@ const {
     BrowserWindow
 } = require('electron')
 
+const open = require('open')
 
 function createWindow() {
     const win = new BrowserWindow({
@@ -20,6 +21,12 @@ function createWindow() {
 
     // and load the index.html of the app.
     win.loadFile('index.html')
+
+    // This opens all links with `target="_blank"` attribute in external browser
+    win.webContents.on('new-window', function (event, url) {
+        event.preventDefault()
+        open(url)
+    })
 
     // Open the DevTools.
     // win.webContents.openDevTools()

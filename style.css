@@ -204,6 +204,13 @@ body {
     margin-left: 30px;
 }
 
+#homeButton {
+    margin-top: 20px;
+    margin-left: 40px;
+    display: inline-flex;
+    position: absolute;
+}
+
 /* For glow instead of outline on focus */
 *:focus {
     border-color: rgba(23, 198, 229, 0.8);

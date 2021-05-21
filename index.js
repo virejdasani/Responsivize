@@ -69,6 +69,12 @@ function calibrateDevice(deviceName) {
             // Reload
             deviceName.reload()
         })
+
+        // For the back button
+        document.getElementById("homeButton").addEventListener("click", () => {
+            // Go to index.html
+            location.href='./index.html'
+        })
     })
 }
 

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,
+body {
+    margin-top: 4%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    /* Change to blue for debugging to see if the bg is visible between the webview and the deviceImg */
+    background-color: rgb(67, 67, 67);
+    text-align: center;
+}
+
+#openPhonesButton,
+#openTabletsButton,
+#openLaptopsButton {
+    width: 30%;
+    display: inline-flex;
+    margin: 6px;
+    border: none;
+    background-color: rgb(76, 77, 76);
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+#credits {
+    font-size: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+a:link {
+    color: rgb(0, 187, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(0, 187, 255);
+    background-color: transparent;
+    text-decoration: none;
+}

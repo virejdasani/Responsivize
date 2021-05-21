@@ -5,60 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Font Awesome for icons -->
-    <script defer src="node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
-    <script defer src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
-    <script defer src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
-
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="index.css">
     <title>Super Dynamic</title>
 </head>
 
 <body>
-    <header>
-        <div id="header">
-            <div id="controls">
-                <i id="backButton" class="fas fa-arrow-circle-left fa-3x"></i>
-                <i id="forwardButton" class="fas fa-arrow-circle-right fa-3x"></i>
-                <i id="reloadButton" class="fas fa-redo-alt fa-3x"></i>
-                <!-- This form is under the controls div on purpose. It is so that they can naturally scale down -->
-                <form >
-                    <input id="urlInput" type="url" placeholder="https://google.com" value="https://www.google.com">
-                    <button type="submit" id="goButton" hidden></button>
-                </form>
-            </div>
-        </div>
-    </header>
-    <div id="deviceContainer">
-        <div id="device11Pro">
-            <p id="iPhone11ProText">iPhone 11 Pro (375x812)</p>
-            <img id="iPhone11ProImg" src="assets/apple/NotchiPhoneBrowserDark.png">
-            <webview id="iPhone11Pro" src="" class="device" class="apple" class="phone">
-            </webview>
-        </div>
-        <div id="device11ProMax">
-            <p id="iPhone11ProMaxText">iPhone 11 Pro Max (414x896)</p>
-            <img id="iPhone11ProMaxImg" src="assets/apple/NotchiPhoneBrowserDark.png">
-            <webview id="iPhone11ProMax" src="" class="device" class="apple" class="phone">
-            </webview>
-        </div>
-        <div id="deviceA51">
-            <p id="A51Text">Samsung Galaxy A51 (393x851)</p>
-            <img id="samsungGalaxyA51Img" src="assets/android/SamsungGalaxyA51Browser.png">
-            <webview id="samsungGalaxyA51" src="" class="device" class="android" class="phone">
-            </webview>
-        </div>
-        <div id="devicePixel5">
-            <p id="pixel5Text">Google Pixel 5 (375x812)</p>
-            <img id="pixel5Img" src="assets/android/Pixel5Browser.png">
-            <webview id="pixel5" src="" class="device" class="android" class="phone">
-            </webview>
-        </div>
-    </div>
+    <h1>Super Dynamic</h1>
+    <h2>Test your app on:</h2>
+    <button id="openPhonesButton" onclick="location.href='./phones.html'">Phones</button>
+    <button id="openTabletsButton" onclick="location.href='./phones.html'">Tablets</button>
+    <button id="openLaptopsButton" onclick="location.href='./phones.html'">Laptops</button>
 
-    <script src="index.js"></script>
+    <div id="credits">
+        <h4>
+            <u><a href="https://github.com/virejdasani/SuperDynamic" target="_blank">Super Dynamic</a></u> is developed and maintained by <u><a href="https://virejdasani.github.io/virej/" target="_blank">Virej Dasani</a></u>
+        </h4>
+    </div>
 </body>
 
 </html>
