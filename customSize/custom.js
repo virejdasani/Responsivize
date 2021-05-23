@@ -114,6 +114,7 @@ function resizeToShowDimensions() {
     dimensInput.value = height + "x" + width
 }
 
+// Every time it is resized, the dimensions get updated
 document.getElementById("device").addEventListener("resize", resizeToShowDimensions)
 
 //                                      FUNCTIONS                                      //
