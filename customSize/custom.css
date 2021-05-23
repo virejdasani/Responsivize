@@ -20,15 +20,15 @@ body {
 }
 
 #resize {
-    height: 250px;
-    width: 250px;
+    width: 1280px;
+    height: 800px;
 }
 
 /* This is the dimensions text */
 #deviceText {
     color: white;
     top: 0px;
-    right: 150px;
+    right: 50px;
     font-size: 50px;
     position: fixed;
     text-shadow: -2px 2px 0 #000,
@@ -78,7 +78,7 @@ body {
     display: inline-flex;
     background-color: rgb(255, 255, 255);
     border: none;
-    width: 150px;
+    width: 200px;
 }
 
 /* Controls */

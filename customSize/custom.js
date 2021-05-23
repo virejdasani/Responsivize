@@ -110,8 +110,8 @@ function resizeToShowDimensions() {
     width = resizeDiv.offsetWidth
 
     // Show the height and width in the device text
-    deviceText.innerHTML = height + "x" + width
-    dimensInput.value = height + "x" + width
+    deviceText.innerHTML = width + "x" + height
+    dimensInput.value = width + "x" + height
 }
 
 // Every time it is resized, the dimensions get updated
