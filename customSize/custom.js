@@ -95,11 +95,11 @@ function displayDimensions() {
     var dimensInput = document.getElementById("dimensInput").value.toLowerCase()
     var resizeDiv = document.getElementById("resize")
 
-    var height = dimensInput.split("x")[0]
-    var width = dimensInput.split("x")[1]
+    var width = dimensInput.split("x")[0]
+    var height = dimensInput.split("x")[1]
 
-    resizeDiv.style.setProperty("height", height+"px")
     resizeDiv.style.setProperty("width", width+"px")
+    resizeDiv.style.setProperty("height", height+"px")
 }
 
 // This function gets the size of the resize div recursively every 2 seconds and sets it to deviceText and dimensInput field

@@ -73,12 +73,19 @@ body {
     position: absolute;
     height: 50px;
     font-size: 30px;
-    margin-left: 680px;
+    margin-left: 980px;
     border-radius: 5px;
     display: inline-flex;
     background-color: rgb(255, 255, 255);
     border: none;
     width: 200px;
+}
+
+#dimensInputLabel {
+    position: absolute;
+    margin-left: 760px;
+    margin-top: 8px;
+    font-size: 30px;
 }
 
 /* Controls */

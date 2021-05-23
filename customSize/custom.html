@@ -28,6 +28,7 @@
                 <form>
                     <input id="urlInput" type="url" placeholder="https://google.com" value="https://www.google.com">
                     <input id="dimensInput" type="text" placeholder="1280x800" value="1280x800">
+                    <label id="dimensInputLabel" for="dimensInput">Width X Height: </label>
                     <button type="submit" id="goButton" hidden></button>
                 </form>
             </div>
@@ -35,7 +36,7 @@
     </header>
     <div id="deviceContainer">
         <p id="deviceText">1280x800</p>
-        <div id="resize" style="resize: both; overflow: auto;">
+        <div id="resize" style="resize: both; overflow: scroll;">
             <webview id="device" src="" autosize="on" class="device" class="apple" class="laptop">
         </div>
         </webview>
