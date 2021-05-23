@@ -12,8 +12,9 @@ body {
 
 #openPhonesButton,
 #openTabletsButton,
-#openLaptopsButton {
-    width: 30%;
+#openLaptopsButton,
+#openCustomButton {
+    width: 22%;
     display: inline-flex;
     margin: 6px;
     border: none;
@@ -27,7 +28,8 @@ body {
 
 #openPhonesButton:hover,
 #openTabletsButton:hover,
-#openLaptopsButton:hover {
+#openLaptopsButton:hover,
+#openCustomButton:hover {
     background-color: rgb(95, 95, 95);
 }
 

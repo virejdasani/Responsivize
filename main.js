@@ -10,7 +10,7 @@ function createWindow() {
     const win = new BrowserWindow({
         width: 1228,
         height: 800,
-        minWidth: 620,
+        minWidth: 680,
         minHeight: 300,
         webPreferences: {
             webviewTag: true,
