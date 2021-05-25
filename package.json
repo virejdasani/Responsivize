@@ -4,7 +4,10 @@
     "description": "A must have web development tool to develop responsive websites!",
     "main": "main.js",
     "scripts": {
-        "start": "electron ."
+        "start": "electron .",
+            "pack-darwin-x64": "electron-packager . 'Responsivize' --platform=darwin --arch=x64 --icon=assets/AppIcons/ResponsivizeLogo.icns --ignore=builds",
+            "pack-win32-x64": "electron-packager . 'Responsivize' --platform=win32 --arch=x64 --icon=assets/AppIcons/ResponsivizeLogo.ico --ignore=builds",
+            "pack-linux-x64": "electron-packager . 'Responsivize' --platform=linux --arch=x64 --icon=assets/AppIcons/ResponsivizeLogo.png --ignore=builds"
     },
     "repository": {
         "type": "git",
