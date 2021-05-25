@@ -1,4 +1,4 @@
 node_modules
-
+builds/*.zip
 # Don't add .DS_Store from any directory
 **/.DS_Store
