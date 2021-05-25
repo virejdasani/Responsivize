@@ -7,6 +7,11 @@ A must have tool to develop responsive websites!
 ## How does it work?
 - With Responsivize, you can test your web app on popular devices like from iPhones, iPads, and MacBooks
 
+- This is what the Home Page looks like
+
+![](https://github.com/virejdasani/Responsivize/blob/master/docs/assets/HomePage.png)
+> Responsivize Home Page 👆
+
 ![](https://github.com/virejdasani/Responsivize/blob/master/docs/assets/Mobile.png)
 > Responsivize Mobile View 👆
 
@@ -23,8 +28,3 @@ A must have tool to develop responsive websites!
 
 ![](https://github.com/virejdasani/Responsivize/blob/master/docs/assets/CustomSize.png)
 > Responsivize Custom Size View 👆
-
-- This is what the Home Page looks like
-
-![](https://github.com/virejdasani/Responsivize/blob/master/docs/assets/HomePage.png)
-> Responsivize Home Page 👆
