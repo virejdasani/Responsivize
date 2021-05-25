@@ -5,7 +5,7 @@ A must have tool to develop responsive websites!
 - Responsivize is an open-source, cross-platform, desktop app that is used to develop responsive websites!
 
 ## How does it work?
-With Responsivize, you can test your web apps on popular devices like iPhones, Android phones, iPads, MacBooks, and you can even set custom dimension devices, that you set the dimensions for!
+With Responsivize, you can test your web apps on popular devices like iPhones, Android phones, iPads, MacBooks, and you can even set custom dimension devices, that you set the dimensions for!         
 This gives you the ability to test your apps on everything from widescreen monitors to smart fridge screens!
 
 - This is what the Home Page looks like
