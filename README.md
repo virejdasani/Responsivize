@@ -24,7 +24,7 @@ A must have tool to develop responsive websites!
 ![](https://github.com/virejdasani/Responsivize/blob/master/docs/assets/Laptops1.png)
 > Responsivize Laptop View 👆
 
-- Apart from the devices available, you can also enter the dimensions (or simply the drag webview) gor any other device you want to test on in the Custom Size View!
+- Apart from the devices available, you can also enter the dimensions (or simply the drag webview) for any other device you want to test on in the Custom Size View!
 
 ![](https://github.com/virejdasani/Responsivize/blob/master/docs/assets/CustomSize.png)
 > Responsivize Custom Size View 👆
