@@ -11,7 +11,7 @@ function createWindow() {
         width: 1228,
         height: 800,
         minWidth: 680,
-        minHeight: 300,
+        minHeight: 620,
         webPreferences: {
             webviewTag: true,
             // This is to zoom out in the app window
