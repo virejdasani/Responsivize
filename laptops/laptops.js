@@ -5,7 +5,7 @@ let goButton = document.getElementById("goButton")
 // All devices go in the devices array
 let devices = ["#macBookPro", "#macBookAir"]
 
-website = `https://virejdasani.github.io/Geniemoji/`
+website = `https://virejdasani.github.io/Responsivize/`
 
 
 loadSiteToDevices()
