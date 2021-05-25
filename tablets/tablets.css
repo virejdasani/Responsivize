@@ -33,7 +33,7 @@ body {
 #deviceIPadPro {
     margin-left: 76px;
     margin-right: 55px;
-    margin-top: 228px;
+    margin-top: 308px;
     background-color: white;
     height: 1366px;
 }
@@ -74,7 +74,7 @@ body {
 #deviceIPadMini {
     margin-left: 76px;
     margin-right: 55px;
-    margin-top: 288px;
+    margin-top: 366px;
     background-color: white;
     height: 1066px;
 }
@@ -115,7 +115,7 @@ body {
 #deviceIPadMiniLandscape {
     margin-left: 130px;
     margin-right: 55px;
-    margin-top: 224px;
+    margin-top: 302px;
     background-color: white;
     height: 750px;
 }
@@ -155,7 +155,7 @@ body {
 #deviceIPadProLandscape {
     margin-left: 120px;
     margin-right: 55px;
-    margin-top: 200px;
+    margin-top: 294px;
     background-color: white;
     height: 1026px;
 }
@@ -183,6 +183,8 @@ body {
 #header {
     width: 100%;
     height: 80px;
+    position: fixed;
+    z-index: 5000;
     /* border: solid 5px black; */
 }
 
@@ -192,11 +194,12 @@ body {
     height: 50px;
     font-size: 30px;
     margin-left: 30px;
-    border-radius: 5px;
+    border-radius: 30px;
     display: inline-flex;
     background-color: rgb(255, 255, 255);
     border: none;
     width: 600px;
+    padding-left: 20px;
 }
 
 /* Controls */
