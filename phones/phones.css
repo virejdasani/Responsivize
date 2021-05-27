@@ -33,7 +33,7 @@ body {
 #device11Pro {
     margin-left: 55px;
     margin-right: 55px;
-    margin-top: 162px;
+    margin-top: 232px;
     background-color: white;
     height: 810px;
 }
@@ -74,7 +74,7 @@ body {
 #device11ProMax {
     margin-left: 55px;
     margin-right: 55px;
-    margin-top: 166px;
+    margin-top: 250px;
     background-color: white;
     height: 898px;
 }
@@ -114,7 +114,7 @@ body {
 #deviceA51 {
     margin-left: 55px;
     margin-right: 55px;
-    margin-top: 218px;
+    margin-top: 299px;
     background-color: white;
     height: 916px;
 }
@@ -155,7 +155,7 @@ body {
 #devicePixel5 {
     margin-left: 55px;
     margin-right: 55px;
-    margin-top: 214px;
+    margin-top: 294px;
     background-color: white;
     height: 852px;
 }
@@ -183,6 +183,8 @@ body {
 #header {
     width: 100%;
     height: 80px;
+    position: fixed;
+    z-index: 5000;
     /* border: solid 5px black; */
 }
 
@@ -228,6 +230,6 @@ body {
 }
 
 /* Hide scrollbars */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */

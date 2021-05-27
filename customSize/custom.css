@@ -27,8 +27,8 @@ body {
 /* This is the dimensions text */
 #deviceText {
     color: white;
-    top: 0px;
-    right: 50px;
+    bottom: 0px;
+    left: 50px;
     font-size: 50px;
     position: fixed;
     text-shadow: -2px 2px 0 #000,

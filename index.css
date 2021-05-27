@@ -8,6 +8,7 @@ body {
     /* Change to blue for debugging to see if the bg is visible between the webview and the deviceImg */
     background-color: rgb(67, 67, 67);
     text-align: center;
+    overflow: hidden;
 }
 
 #openPhonesButton,
@@ -47,6 +48,11 @@ h2 {
     position: absolute;
     bottom: 10px;
     left: 50px;
+}
+
+#update {
+    padding: 30px;
+    font-size: 30px;
 }
 
 a:link {
