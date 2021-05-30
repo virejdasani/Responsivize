@@ -1,4 +1,8 @@
 node_modules
+
 builds/v1.0.0/*.zip
+
 # Don't add .DS_Store from any directory
 **/.DS_Store
+
+.vscode
