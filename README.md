@@ -5,6 +5,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/virejdasani/responsivize/)
 
+![Responsivize](https://raw.githubusercontent.com/virejdasani/Responsivize/master/assets/AppIcons/ResponsivizeBanner.png)
+
 # [Responsivize](https://virejdasani.github.io/Responsivize/)
 A must have tool to develop responsive websites!
 
