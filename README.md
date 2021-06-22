@@ -38,3 +38,6 @@ This gives you the ability to test your apps on everything from widescreen monit
 
 ![](https://github.com/virejdasani/Responsivize/blob/master/docs/assets/CustomSize.png)
 > Responsivize Custom Size View 👆
+
+### Publication(s)
+- [Softpedia](https://www.softpedia.com/get/Internet/WEB-Design/Responsivize.shtml)
