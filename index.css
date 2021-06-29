@@ -2,67 +2,68 @@
 
 html,
 body {
-    margin-top: 4%;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    /* Change to blue for debugging to see if the bg is visible between the webview and the deviceImg */
-    background-color: rgb(67, 67, 67);
-    text-align: center;
-    overflow: hidden;
+  margin-top: 4%;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  /* Change to blue for debugging to see if the bg is visible between the webview and the deviceImg */
+  background-color: rgb(67, 67, 67);
+  text-align: center;
+  overflow: hidden;
 }
 
 #openPhonesButton,
 #openTabletsButton,
 #openLaptopsButton,
 #openCustomButton {
-    width: 22%;
-    display: inline-flex;
-    margin: 6px;
-    border: none;
-    background-color: rgb(76, 77, 76);
-    color: white;
-    padding: 40px;
-    border-radius: 10px;
-    justify-content: center;
-    font-size: 28px;
+  width: 22%;
+  display: inline-flex;
+  margin: 6px;
+  border: none;
+  background-color: rgb(76, 77, 76);
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 28px;
+  outline: none;
 }
 
 #openPhonesButton:hover,
 #openTabletsButton:hover,
 #openLaptopsButton:hover,
 #openCustomButton:hover {
-    background-color: rgb(95, 95, 95);
+  background-color: rgb(95, 95, 95);
 }
 
 h1 {
-    font-size: 70px;
+  font-size: 70px;
 }
 
 h2 {
-    font-size: 50px;
-    margin-bottom: 60px;
+  font-size: 50px;
+  margin-bottom: 60px;
 }
 
 #credits {
-    font-size: 30px;
-    position: absolute;
-    bottom: 10px;
-    left: 50px;
+  font-size: 30px;
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
 }
 
 #update {
-    padding: 30px;
-    font-size: 30px;
+  padding: 30px;
+  font-size: 30px;
 }
 
 a:link {
-    color: rgb(0, 187, 255);
-    background-color: transparent;
-    text-decoration: none;
+  color: rgb(0, 187, 255);
+  background-color: transparent;
+  text-decoration: none;
 }
 
 a:visited {
-    color: rgb(0, 187, 255);
-    background-color: transparent;
-    text-decoration: none;
+  color: rgb(0, 187, 255);
+  background-color: transparent;
+  text-decoration: none;
 }

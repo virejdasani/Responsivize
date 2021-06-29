@@ -1,50 +1,50 @@
 html,
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    /* Change to blue for debugging to see if the bg is visible between the webview and the deviceImg */
-    background-color: rgb(67, 67, 67);
-    /* background-color: blue; */
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  /* Change to blue for debugging to see if the bg is visible between the webview and the deviceImg */
+  background-color: rgb(67, 67, 67);
+  /* background-color: blue; */
 }
 
 /* ------------------------------iPhone 11 Pro---------------------------------- */
 /* This is the webview size */
 #iPhone11Pro {
-    display: inline-flex;
-    width: 375px;
-    height: 812px;
-    /* This makes the website accessible through the device image */
-    pointer-events: auto;
+  display: inline-flex;
+  width: 375px;
+  height: 812px;
+  /* This makes the website accessible through the device image */
+  pointer-events: auto;
 }
 
 /* This is the device image */
 #iPhone11ProImg {
-    position: absolute;
-    top: 186px;
-    left: 33px;
-    width: 432px;
-    height: 890px;
-    /* This makes the website accessible through the device image */
-    pointer-events: none;
+  position: absolute;
+  top: 186px;
+  left: 33px;
+  width: 432px;
+  height: 890px;
+  /* This makes the website accessible through the device image */
+  pointer-events: none;
 }
 
 /* This is the x y position of the webview */
 #device11Pro {
-    margin-left: 55px;
-    margin-right: 55px;
-    margin-top: 232px;
-    background-color: white;
-    height: 810px;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-top: 232px;
+  background-color: white;
+  height: 810px;
 }
 
 /* This is the device name and dimensions text */
 #iPhone11ProText {
-    margin: 0;
-    position: absolute;
-    top: 140px;
-    left: 124px;
-    /* width: 200px; */
+  margin: 0;
+  position: absolute;
+  top: 140px;
+  left: 124px;
+  /* width: 200px; */
 }
 
 /* ------------------------------iPhone 11 Pro---------------------------------- */
@@ -52,39 +52,39 @@ body {
 /* ------------------------------iPhone 11 Pro Max---------------------------------- */
 /* This is the webview size */
 #iPhone11ProMax {
-    display: inline-flex;
-    width: 414px;
-    height: 896px;
-    /* This makes the website accessible through the device image */
-    pointer-events: auto;
+  display: inline-flex;
+  width: 414px;
+  height: 896px;
+  /* This makes the website accessible through the device image */
+  pointer-events: auto;
 }
 
 /* This is the device image */
 #iPhone11ProMaxImg {
-    position: absolute;
-    top: 186px;
-    left: 515px;
-    width: 475px;
-    height: 996px;
-    /* This makes the website accessible through the device image */
-    pointer-events: none;
+  position: absolute;
+  top: 186px;
+  left: 515px;
+  width: 475px;
+  height: 996px;
+  /* This makes the website accessible through the device image */
+  pointer-events: none;
 }
 
 /* This is the x y position of the webview */
 #device11ProMax {
-    margin-left: 55px;
-    margin-right: 55px;
-    margin-top: 250px;
-    background-color: white;
-    height: 898px;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-top: 250px;
+  background-color: white;
+  height: 898px;
 }
 
 /* This is the device name and dimensions text */
 #iPhone11ProMaxText {
-    margin: 0;
-    position: absolute;
-    top: 140px;
-    left: 608px;
+  margin: 0;
+  position: absolute;
+  top: 140px;
+  left: 608px;
 }
 
 /* ------------------------------iPhone 11 Pro Max---------------------------------- */
@@ -92,40 +92,40 @@ body {
 /* ------------------------------Samsung Galaxy A51---------------------------------- */
 /* This is the webview size */
 #samsungGalaxyA51 {
-    display: inline-flex;
-    width: 412px;
-    height: 914px;
-    /* This makes the website accessible through the device image */
-    pointer-events: auto;
+  display: inline-flex;
+  width: 412px;
+  height: 914px;
+  /* This makes the website accessible through the device image */
+  pointer-events: auto;
 }
 
 /* This is the device image */
 #samsungGalaxyA51Img {
-    position: absolute;
-    top: 186px;
-    left: 1046px;
-    width: 463px;
-    height: 1064px;
-    /* This makes the website accessible through the device image */
-    pointer-events: none;
+  position: absolute;
+  top: 186px;
+  left: 1046px;
+  width: 463px;
+  height: 1064px;
+  /* This makes the website accessible through the device image */
+  pointer-events: none;
 }
 
 /* This is the x y position of the webview */
 #deviceA51 {
-    margin-left: 55px;
-    margin-right: 55px;
-    margin-top: 299px;
-    background-color: white;
-    height: 916px;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-top: 299px;
+  background-color: white;
+  height: 916px;
 }
 
 /* This is the device name and dimensions text */
 #A51Text {
-    margin: 0;
-    position: absolute;
-    width: 350px;
-    top: 140px;
-    left: 1090px;
+  margin: 0;
+  position: absolute;
+  width: 350px;
+  top: 140px;
+  left: 1090px;
 }
 
 /* ------------------------------Samsung Galaxy A51---------------------------------- */
@@ -133,100 +133,125 @@ body {
 /* ------------------------------Google Pixel 5---------------------------------- */
 /* This is the webview size */
 #pixel5 {
-    display: inline-flex;
-    width: 393px;
-    height: 851px;
-    /* This makes the website accessible through the device image */
-    pointer-events: auto;
+  display: inline-flex;
+  width: 393px;
+  height: 851px;
+  /* This makes the website accessible through the device image */
+  pointer-events: auto;
 }
 
 /* This is the device image */
 #pixel5Img {
-    position: absolute;
-    top: 186px;
-    left: 1568px;
-    width: 442px;
-    height: 982px;
-    /* This makes the website accessible through the device image */
-    pointer-events: none;
+  position: absolute;
+  top: 186px;
+  left: 1568px;
+  width: 442px;
+  height: 982px;
+  /* This makes the website accessible through the device image */
+  pointer-events: none;
 }
 
 /* This is the x y position of the webview */
 #devicePixel5 {
-    margin-left: 55px;
-    margin-right: 55px;
-    margin-top: 294px;
-    background-color: white;
-    height: 852px;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-top: 294px;
+  background-color: white;
+  height: 852px;
 }
 
 /* This is the device name and dimensions text */
 #pixel5Text {
-    margin: 0;
-    position: absolute;
-    width: 300px;
-    top: 140px;
-    left: 1630px;
+  margin: 0;
+  position: absolute;
+  width: 300px;
+  top: 140px;
+  left: 1630px;
 }
 
 /* ------------------------------Google Pixel 5---------------------------------- */
 
 /* Contains all the devices */
 #deviceContainer {
-    text-align: center;
-    display: inline-flex;
-    margin: 6px;
-    font-size: 22px;
+  text-align: center;
+  display: inline-flex;
+  margin: 6px;
+  font-size: 22px;
 }
 
 /* Contains the input field and controls */
 #header {
-    width: 100%;
-    height: 80px;
-    position: fixed;
-    z-index: 5000;
-    /* border: solid 5px black; */
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 5000;
+  /* border: solid 5px black; */
 }
 
 /* The url input field */
 #urlInput {
-    position: absolute;
-    height: 50px;
-    font-size: 30px;
-    margin-left: 30px;
-    border-radius: 30px;
-    display: inline-flex;
-    background-color: rgb(255, 255, 255);
-    border: none;
-    width: 600px;
-    padding-left: 20px;
+  position: absolute;
+  height: 50px;
+  font-size: 30px;
+  margin-left: 30px;
+  border-radius: 30px;
+  display: inline-flex;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 600px;
+  padding-left: 20px;
 }
 
 /* Controls */
 #controls {
-    margin-top: 20px;
-    margin-left: 25%;
-    display: inline-flex;
+  margin-top: 20px;
+  margin-left: 25%;
+  display: inline-flex;
 }
 
 #backButton,
 #forwardButton,
 #reloadButton {
-    margin-left: 30px;
+  margin-left: 30px;
+  padding: 6px;
+  border-radius: 60px;
+  color: #f8f8f8;
 }
 
+#backButton:hover,
+#forwardButton:hover,
+#reloadButton:hover,
+#homeButton:hover {
+  background-color: rgb(103, 103, 103);
+  transition: 100ms ease-in-out;
+}
+
+#backButton:active,
+#forwardButton:active,
+#reloadButton:active,
+#homeButton:active {
+  background-color: rgb(88, 88, 88);
+}
+
+
 #homeButton {
-    margin-top: 20px;
-    margin-left: 40px;
-    display: inline-flex;
-    position: absolute;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: inline-flex;
+  position: absolute;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 60px;
+  color: #f8f8f8;
 }
 
 /* For glow instead of outline on focus */
 *:focus {
-    border-color: rgba(23, 198, 229, 0.8);
-    box-shadow: 0 1px 1px rgba(39, 166, 189, 0.075) inset, 0 0 8px rgba(23, 198, 229, 0.823);
-    outline: none;
+  border-color: rgba(23, 198, 229, 0.8);
+  box-shadow: 0 1px 1px rgba(39, 166, 189, 0.075) inset, 0 0 8px rgba(23, 198, 229, 0.823);
+  outline: none;
 }
 
 /* Hide scrollbars */
