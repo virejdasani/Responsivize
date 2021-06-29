@@ -1,36 +1,36 @@
 {
-    "name": "responsivize",
-    "version": "1.0.0",
-    "description": "A must have web development tool to develop responsive websites!",
-    "main": "main.js",
-    "scripts": {
-        "start": "electron .",
-        "pack-darwin-x64": "electron-packager . 'Responsivize' --platform=darwin --arch=x64 --icon=assets/AppIcons/ResponsivizeLogo.icns --ignore=builds --ignore=docs",
-        "pack-win32-x64": "electron-packager . 'Responsivize' --platform=win32 --arch=x64 --icon=assets/AppIcons/ResponsivizeLogo.ico --ignore=builds --ignore=docs",
-        "pack-linux-x64": "electron-packager . 'Responsivize' --platform=linux --arch=x64 --icon=assets/AppIcons/ResponsivizeLogo.png --ignore=builds --ignore=docs"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/virejdasani/Responsivize.git"
-    },
-    "keywords": [
-        "Responsivize",
-        "Responsive",
-        "web-tool",
-        "web-dev",
-        "Dynamic",
-        "Electron",
-        "App"
-    ],
-    "author": "Virej Dasani",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/virejdasani/Responsivize/issues"
-    },
-    "homepage": "https://github.com/virejdasani/Responsivize#readme",
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "^5.15.3",
-        "electron": "^12.0.7",
-        "open": "^8.0.9"
-    }
+  "name": "responsivize",
+  "version": "2.0.0",
+  "description": "A must have web development tool to develop responsive websites!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack-darwin-x64": "electron-packager . 'Responsivize' --platform=darwin --arch=x64 --icon=assets/AppIcons/ResponsivizeLogo.icns --ignore=builds --ignore=docs",
+    "pack-win32-x64": "electron-packager . 'Responsivize' --platform=win32 --arch=x64 --icon=assets/AppIcons/ResponsivizeLogo.ico --ignore=builds --ignore=docs",
+    "pack-linux-x64": "electron-packager . 'Responsivize' --platform=linux --arch=x64 --icon=assets/AppIcons/ResponsivizeLogo.png --ignore=builds --ignore=docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virejdasani/Responsivize.git"
+  },
+  "keywords": [
+    "Responsivize",
+    "Responsive",
+    "web-tool",
+    "web-dev",
+    "Dynamic",
+    "Electron",
+    "App"
+  ],
+  "author": "Virej Dasani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/virejdasani/Responsivize/issues"
+  },
+  "homepage": "https://github.com/virejdasani/Responsivize#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "electron": "^12.0.7",
+    "open": "^8.0.9"
+  }
 }
