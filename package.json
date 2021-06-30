@@ -5,9 +5,9 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "pack-darwin-x64": "electron-packager . 'Responsivize' --platform=darwin --arch=x64 --icon=assets/AppIcons/ResponsivizeLogo.icns --ignore=builds --ignore=docs",
-    "pack-win32-x64": "electron-packager . 'Responsivize' --platform=win32 --arch=x64 --icon=assets/AppIcons/ResponsivizeLogo.ico --ignore=builds --ignore=docs",
-    "pack-linux-x64": "electron-packager . 'Responsivize' --platform=linux --arch=x64 --icon=assets/AppIcons/ResponsivizeLogo.png --ignore=builds --ignore=docs"
+    "pack-darwin-x64": "electron-packager . Responsivize --platform=darwin --arch=x64 --icon=assets/AppIcons/ResponsivizeLogo.icns --ignore=builds --ignore=docs",
+    "pack-win32-x64": "electron-packager . Responsivize --platform=win32 --arch=x64 --icon=assets/AppIcons/ResponsivizeLogo.ico --ignore=builds --ignore=docs",
+    "pack-linux-x64": "electron-packager . Responsivize --platform=linux --arch=x64 --icon=assets/AppIcons/ResponsivizeLogo.png --ignore=builds --ignore=docs"
   },
   "repository": {
     "type": "git",
