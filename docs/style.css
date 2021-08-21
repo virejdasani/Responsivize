@@ -77,11 +77,8 @@ body {
 }
 
 /* Dark mode toggle start */
-.dark-mode .page-header {
-    background-image: linear-gradient(120deg, rgba(21,153,87,1) 10%, rgba(21,87,153,1) 88%);
-}
 .dark-mode {
-    background-color: black;
+    background-color: #232323;
     color: white;
 }
 .switch {
