@@ -45,6 +45,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <style>
     head,
@@ -57,7 +59,15 @@
 </head>
 
 <body>
+  <!-- back to top button -->
+  <span id="button"></span>
+  
   <section class="page-header">
+    <!-- toggle button -->
+    <label class="switch" style="float: right;">
+      <input type="checkbox" checked onclick="myFunction()">
+      <span class="slider round">&#127761;&#127765;</span>
+    </label>
     <img style="width: 100px;" src="assets/ResponsivizeLogoTransparentWhiteArrow.png" alt="">
     <h1 class="project-name">Responsivize</h1>
     <h2 class="project-tagline">A must have tool to develop responsive websites!</h2>
@@ -126,7 +136,29 @@
         maintained by <a href="https://virejdasani.github.io/virej/">VirejDasani</a>.</span>
     </footer>
   </section>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+        // back to top button
+        var btn = $('#button');
+        $(window).scroll(function() {
+        if ($(window).scrollTop() > 500) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+        });
+        btn.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop:0}, 1000);
+        });
 
+        // dark mode toggle
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
 </body>
 
 </html>
