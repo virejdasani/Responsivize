@@ -542,7 +542,7 @@ li {
 /* Mobile Only */
 @media only screen and (max-width: 425px) {
   body {
-    background-size: 1000%;
+    background-size: 1200%;
   }
 
   h2 {
@@ -583,7 +583,7 @@ li {
 /* Mobile Design - Tablet */
 @media only screen and (max-width: 999px) {
   body {
-    background-size: 1000%;
+    background-size: 1200%;
   }
 
   /* Make sure to show the links once we're on a desktop */
