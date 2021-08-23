@@ -40,4 +40,4 @@ This gives you the ability to test your apps on everything from widescreen monit
 > Responsivize Custom Size View 👆
 
 ### Publication(s)
-- [Softpedia](https://www.softpedia.com/get/Internet/WEB-Design/Responsivize.shtml)
+- [Softpedia article on Responsivize](https://www.softpedia.com/get/Internet/WEB-Design/Responsivize.shtml)
