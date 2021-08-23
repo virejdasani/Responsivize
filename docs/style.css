@@ -438,6 +438,7 @@ li {
 }
 
 #landing-subtitle {
+  text-align: center;
   color: #424242;
   padding-top: 7px;
 }
