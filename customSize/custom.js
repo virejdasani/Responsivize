@@ -87,7 +87,7 @@ function calibrateDevice(deviceName) {
 
 // Add `https://` to URL when the inputted URL is without `https://`
 function normalizeUrl(url) {
-    return (url.includes('https://')? url : 'https://' + url)
+    return (url.includes('http')? url : 'https://' + url)
 }
 
 // For each device, firstly it is calibrated by passing it in the calibrateDevice(deviceName) function
