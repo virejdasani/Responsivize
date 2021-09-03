@@ -21,8 +21,7 @@ goButton.addEventListener("click", (event) => {
     // Get the value from the urlInput field
     inputtedUrl= document.getElementById("urlInput").value
     // Add `https://` to URL when the inputted URL is without `https://`
-    normalizedUrl = normalizeUrl(inputtedUrl)
-    website = normalizedUrl
+    website = normalizeUrl(inputtedUrl)
 
     // This removes focus from the input field so the cursor doesn't keep blinking when not typing in the field
     urlInputField.blur()
