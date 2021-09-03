@@ -18,8 +18,12 @@ goButton.addEventListener("click", (event) => {
     // Don't reload the app window
     event.preventDefault()
 
-    // Get the value from the urlInput field 
-    website = document.getElementById("urlInput").value
+    // Get the value from the urlInput field
+    inputtedUrl= document.getElementById("urlInput").value
+    // Add `https://` to URL when the inputted URL is without `https://`
+    website = normalizeUrl(inputtedUrl)
+    // Let URL have `https://` after searching when the inputted URL is without `https://`
+    document.querySelector("#urlInput").value = website
 
     // This removes focus from the input field so the cursor doesn't keep blinking when not typing in the field
     urlInputField.blur()
@@ -76,6 +80,11 @@ function calibrateDevice(deviceName) {
             location.href='../index.html'
         })
     })
+}
+
+// Add `https://` to URL when the inputted URL is without `https://`
+function normalizeUrl(url) {
+    return (url.includes('https://')? url : 'https://' + url)
 }
 
 // For each device, firstly it is calibrated by passing it in the calibrateDevice(deviceName) function
