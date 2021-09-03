@@ -1,5 +1,5 @@
 // This should be accurate before releasing each new version because if it isn't, and there is an update available, it won't show up in the update div
-var appVersion = "2.0.0"
+var appVersion = "3.0.0"
 
 // For app update, if an update is available, the updateAvailable in the RemoteJSON repo will be updated to yes. That will result in the code below being executed
 fetch('https://virejdasani.github.io/RemoteJSON/Responsivize/index.html')

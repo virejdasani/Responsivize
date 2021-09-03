@@ -2,6 +2,7 @@ node_modules
 
 builds/v1.0.0/*.zip
 builds/v2.0.0/*.zip
+builds/v3.0.0/*.zip
 
 # Don't add .DS_Store from any directory
 **/.DS_Store
