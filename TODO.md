@@ -1,3 +1,5 @@
+Make it so that when updating app, new version replacesthe older one
+
 Add screenshot capability for devices with and without device frames
 
 Add functionality to test different devices simultaneously (A view with all devices)
