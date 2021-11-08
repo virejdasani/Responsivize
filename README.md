@@ -41,3 +41,4 @@ This gives you the ability to test your apps on everything from widescreen monit
 
 ### Publication(s)
 - [Softpedia article on Responsivize](https://www.softpedia.com/get/Internet/WEB-Design/Responsivize.shtml)
+- [Coliss article on Responsivize](https://coliss.com/articles/build-websites/operation/work/responsivize-for-develop-responsive-websites.html)
