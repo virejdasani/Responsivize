@@ -1,4 +1,6 @@
-Make it so that when updating app, new version replacesthe older one
+Fix iPhone webview bug
+
+Make it so that when updating app, new version replaces the older one
 
 Add screenshot capability for devices with and without device frames
 
