@@ -1,6 +1,8 @@
+Add ability to change the default url
+
 Fix iPhone webview bug
 
-Make it so that when updating app, new version replaces the older one
+Make it so that when updating app, new version auto-replaces the older one
 
 Add screenshot capability for devices with and without device frames
 
