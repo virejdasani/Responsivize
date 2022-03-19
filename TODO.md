@@ -1,3 +1,5 @@
+Add multiple custom views to view phone, tablet, etc. all together
+
 Add ability to change the default url
 
 Fix iPhone webview bug
